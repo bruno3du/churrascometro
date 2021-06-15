@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Signika+Negative:wght@300;400;600;700&family=Signika:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&family=Oswald&family=Pangolin&family=Raleway&family=Roboto&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(./assets/background.svg);
+    background-color: #000000;
+}
+
+.container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.nav  {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    border-radius: 4px;
+    background-color:#0D0E0D;
+    box-shadow: 0 0 5px #000000;
+}
+
+#logo {
+    display: inline-block;
+    height: 80px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.subcontainer {
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)) ,url(./assets/fundo.jpg);
+    background-size: cover;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    height: auto;
+    border-radius: 5px;
+    border-bottom: 10px solid #262626;
+    box-shadow: 0 0 5px #000000;
+}
+.subcontainer h2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #F29F05;
+}
+
+.boxed {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    font-family: 'Balsamiq Sans', cursive;
+    color: #F29F05; /* Testando Cor*/
+    margin: 1%;
+    width: 145px;
+    height: 180px;
+    background-color:#A61C28;
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: 5px solid #262626;
+    box-shadow: 0 0 10px #000000;
+}
+
+.box1 {
+    font-size: large;
+    
+}
+
+.box1 img {
+    margin-top: 10px;
+    width: 100px;
+}
+
+.box1 input {
+    margin-top: 10px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #262626;
+    border-radius: 3px;
+    background-color: #A61C28;
+    color: aliceblue;
+}
+
+.box1 input::placeholder{
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 10px;
+}
+
+.box2 img {
+    margin-top: 20px;
+    width: 80px;
+}
+
+.box2 input {
+    margin-top: 22px;
+    width: 120px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #262626;
+    border-radius: 3px;
+    background-color: #A61C28;
+    color: aliceblue;
+}
+
+.box2 input::placeholder{
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 10px;
+}
+
+.inferior {
+    display: flex;
+    justify-content: center;
+}
+
+.retangulo {
+    font-family: 'Balsamiq Sans', cursive;
+    color: #F29F05;
+    padding: 5px;
+    width: 320px;
+    height: 60px;
+    background-color: #A61C28;
+    border-radius: 5px;
+    border-bottom: 5px solid #262626;
+    box-shadow: 0 0 5px #000000;
+}
+
+.retangulo img {
+    width: 40px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.retangulo input {
+    margin-top: 10px;
+    width: 180px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #262626;
+    border-radius: 3px;
+    background-color: #A61C28;
+    color: aliceblue;
+}
+
+.retangulo input::placeholder{
+    color: rgba(255, 255, 255, 0.493);
+    font-size: 10px;
+}
+
+.SecondContainer {
+    background-color: #0D0E0D;
+    padding: 10px;
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    height: auto;
+    border-radius: 5px;
+    border-bottom: 10px solid #262626;
+    box-shadow: 0 0 5px #000000;
+    overflow: hidden;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 18px;
+    color: #F29F05;
+    padding: 15px;
+}
+
+#subSecondContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.otherBox {
+    margin: 1%;
+    width: 200px;
+    height: 80px;
+    background-color:#A61C28;
+    padding: 5px;
+    border-radius: 5px;
+    border-bottom: 5px solid #262626;
+    box-shadow: 0 0 10px #000000;
+}
+
+.otherBox:hover {
+    color: white;
+    box-shadow: 0 5px 10px #000000;
+    cursor: pointer;
+}
+
+
+.box-um {
+    display: flex;
+}
+
+.box-um span {
+    display: flex;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-um img {
+    margin-left: 5%;
+    width: 50px;
+}
+
+.box-dois {
+    display: flex;
+}
+
+.box-dois span {
+    display: flex;
+    margin-left: 15%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-dois img {
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 50px;
+}
+
+.box-tres {
+    display: flex;
+}
+
+.box-tres span {
+    display: flex;
+    margin-left: 5%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box-tres img {
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 50px;
+}
+
+.executar button {
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 18px;
+    color: #F29F05;
+    width: 200px;
+    margin-top: 10px;
+    height: 45px;
+    background-color: #262626;
+    border: none;
+    border-radius: 2px;
+    border-right: 20px solid #A61C28;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px #000000;
+}
+
+.executar button:hover {
+    color: white;
+    box-shadow: 0 5px 10px #000000;
+    cursor: pointer;
+}
+
+.executar button:active {
+    background-color: thistle;
+}
+
+
+.subcontainer01 {
+    color: wheat;
+    background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0)), url(./assets/background.jpg);
+    background-size: cover;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-bottom: 10px solid #262626;
+    box-shadow: 0 0 5px #000000;
+    /* display: inline-flex; */
+}
+.subcontainer01 h2 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: #F29F05;
+    font-size: 32px;
+}
+
+.caixas {
+    display: inline-flex;
+}
+
+.other{
+    margin-top: 5%;
+    background-color: wheat;
+    width: 250px;
+    height: auto;
+    justify-content: center;
+    display: block;
+}
+
+.dimensao {
+    width: 50px;
+}
+
+.content-insert{
+    margin-top: 15px;
+    color: teal;
+    margin-left: 15px;
+    text-align: left;
+}
+
+.container h3 {
+    font-family: 'Pangolin', cursive;
+    color: #F29F05;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px black;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Churrascômetro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <img id="logo" src="./assets/logo.png" alt="Churrascômetro">
+        </div>
+        <div class="subcontainer">
+            <h2>Quantas Pessoas vão ao Churrasco</h2>
+            <div class="boxed">
+                <div class="box box1">
+                    Adultos
+                    <img src="./assets/standing-up-man-.svg" alt="adulto">
+                    <input id="adulto" name="adulto" type="number" value="" placeholder="Digite Aqui">
+                </div>
+                <div class="box box2">
+                    Crianças
+                    <img src="./assets/happy-children.svg" alt="adulto">
+                    <input id="crianca" name="crianca" type="number" placeholder="Digite Aqui">
+                </div>
+            </div>
+            <div class="inferior">
+                <div class="retangulo">
+                    <img src="./assets/timer.svg" alt="timer">
+                    Duração do Churrasco
+                    <input id="duracao" name="duracao" type="number" value="" placeholder="Digite Aqui">
+                </div>
+            </div>
+        </div>
+
+        <div class="SecondContainer">
+            <h2>O que vai ser servido</h2>
+            <div id="subSecondContainer">
+                <div id="carne" style="background:rgb(166, 28, 40);" class="otherBox box-um">
+                    <img src="./assets/meat.svg" alt="">
+                    <span>Carne</span>
+                </div>
+                <div id="cerveja"style="background:rgb(166, 28, 40);" class="otherBox box-dois">
+                    <img src="./assets/beer.svg" alt="">
+                    <span>Cerveja</span>
+                </div>
+                <div id="refrigerante" style="background:rgb(166, 28, 40);" class="otherBox box-tres">
+                   <img src="./assets/soda.svg" alt="refrigerante">
+                    <span>Refrigerante</span>
+                </div>
+            </div>
+            <div class="executar">
+                <button id="levantamento">Fazer Levantamento</button>
+            </div>
+        </div>
+</body>
+<script src="./script.js"></script>
+<script src="./stylejs.js"></script>
+</html>
